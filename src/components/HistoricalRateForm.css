@@ -1,0 +1,159 @@
+.container {
+  background-color: #0a146e;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 3rem;
+  padding: 3rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.align {
+  margin: 0px auto;
+  padding: 32px 16px;
+  position: relative;
+}
+
+.info-container {
+  flex: 1;
+  min-width: 300px;
+}
+
+.info-container h1 {
+  color: rgb(255, 255, 255);
+  margin: 0px 0px 32px;
+  font-weight: 600;
+  line-height: 1.3;
+  font-size: 28px;
+}
+
+.info-container .historical-rate-description {
+  color: rgb(255, 255, 255);
+  margin: 0px 0px 32px;
+  line-height: 1.7;
+  max-width: 600px;
+}
+
+.form-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 450px;
+  background-color: rgb(255, 255, 255);
+  padding: 2.6rem 2.8rem;
+  border-radius: 8px;
+  box-shadow: rgba(0, 17, 51, 0.1) 0px 3px 15px;
+  margin-bottom: 30px;
+}
+
+.form-container .title-currency {
+  text-align: left;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.form-container h3 {
+  text-align: center;
+  color: rgb(10, 20, 110);
+  margin: 0px 0px 32px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.3;
+}
+
+.form-container .title-currency {
+  margin-bottom: 4px;
+  color: rgb(20, 30, 55);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.form-container
+  #currency-container
+  button
+  .containerfirstgroup
+  #currency-descriptiveText
+  .selectedcurrency {
+  font-size: 16px;
+}
+
+.form-container
+  #currency-container
+  button
+  .containerfirstgroup
+  #currency-descriptiveText
+  .currency-description {
+  font-size: 15px;
+  color: gray;
+  font-weight: 520;
+}
+
+.form-container #currency-container button .containersecondgroup svg {
+  color: black;
+}
+
+.form-container #date {
+  margin-top: 24px;
+}
+
+.btn-date {
+  background: none;
+  display: flex;
+  align-items: center;
+  min-width: 0;
+  width: auto;
+  padding: 0.75rem;
+  margin-bottom: 1.5rem;
+  border-radius: 0.5rem;
+  border-width: 1px;
+  border-color: #d1d5db;
+  font-weight: 470;
+  font-size: 18px;
+  text-align: left;
+  color: #000000;
+  cursor: pointer;
+}
+
+.aligndatepicker {
+  position: relative;
+}
+
+.btn-submit {
+  min-width: 0;
+  width: auto;
+  margin: 0px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 113, 235);
+  border: 2px solid rgb(0, 113, 235);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-date svg {
+  margin-right: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .flex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-container {
+    padding: 1.2rem 1.2rem;
+    width: 100%;
+    max-width: 360px;
+  }
+}
+/* no te olvides de hacerlo responsive */
