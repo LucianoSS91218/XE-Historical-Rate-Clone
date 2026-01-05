@@ -1,0 +1,59 @@
+#currency-container {
+  position: relative;
+}
+
+.btn-currency {
+  background: none;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 0.375rem;
+  border-width: 1px;
+  border-color: #d1d5db;
+  width: 100%;
+  cursor: pointer;
+  position: relative;
+}
+
+.containerfirstgroup {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.containerimgcurrency {
+  overflow: hidden;
+  position: relative;
+  margin-right: 0.5rem;
+  border-radius: 0.125rem;
+  border-width: 1px;
+  height: 17px;
+  width: 23px;
+  border-color: #00113326;
+}
+
+.imgcontainer img {
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.flex #currency-descriptiveText .gray {
+  font-weight: 500;
+  color: grey;
+  font-size: 17px;
+}
+
+.flex .containersecondgroup svg {
+  color: aquamarine;
+}
+
+/* acordate q no pudiste lograr q se vea el <svg> */
